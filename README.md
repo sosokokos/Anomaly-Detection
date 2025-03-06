@@ -47,23 +47,7 @@ source("AnomalyDetection.R")
 - **Feature Selection**: PCA significantly reduced dimensionality while preserving essential variance.
 - **Computational Complexity**: Training HMMs across multiple states was time-intensive.
 - **Threshold Selection**: A predefined threshold was used for anomaly detection; future improvements could involve statistical validation.
-- **Investment Strategy Optimization**: Fine-tuning hyperparameters improved reinforcement learning outcomes.
-
-## Contributors
-- **Daniel Šurina**
-- **Arya Singh**
-- **Oliver Ng-Young-Lim**
-- **Steven Dai Chuy**
-
-## References
-- Principal Component Analysis (PCA) Documentation
-- Hidden Markov Models for Anomaly Detection
-- Reinforcement Learning: Q-Learning Basics
-
-## Future Work
-- Implement alternative anomaly detection techniques (e.g., LSTMs, Isolation Forests).
-- Optimize threshold determination using statistical methods.
-- Expand reinforcement learning applications to real-world financial datasets.
+- **Investment Strategy Optimization**: Fine-tuning hyperparameters improved reinforcement learning outcomes
 
 ## License
 This project is for educational purposes. Contact contributors for reuse permissions.
