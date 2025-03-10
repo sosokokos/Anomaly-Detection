@@ -3,10 +3,14 @@
 ## Overview
 This project focuses on cybersecurity in automated control systems, particularly employing anomaly-detection-based intrusion detection methods. It utilizes Principal Component Analysis (PCA) for feature selection, Hidden Markov Models (HMMs) for model training, and reinforcement learning for investment decision-making. The aim is to enhance cybersecurity awareness and improve anomaly detection methodologies within critical infrastructure.
 
+---
+
 ## Project Structure
 - **Feature Engineering**: Data preprocessing, interpolation of missing values, and PCA for feature selection.
 - **HMM Training and Testing**: Model training on selected features, evaluation using log-likelihood, Bayesian Information Criterion (BIC), and Akaike Information Criterion (AIC).
 - **Anomaly Detection**: Application of trained HMMs on datasets with injected anomalies and comparison with normal data log-likelihoods.
+
+---
 
 ## Technologies Used
 - **Programming Language**: R
@@ -16,6 +20,8 @@ This project focuses on cybersecurity in automated control systems, particularly
   - `tidyverse` for data manipulation
   - `dplyr` for dataset transformations
   - `caret` for preprocessing and validation
+  - 
+---
 
 ## Setup
 ### Dependencies
@@ -33,6 +39,8 @@ To execute the R script:
 ```r
 source("AnomalyDetection.R")
 ```
+
+---
 
 ## Results and Insights
 - The best number of states for HMM model was determined by selecting the lowest BIC and highest log-likelihood.
