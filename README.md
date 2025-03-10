@@ -28,7 +28,6 @@ install.packages(c("depmixS4", "ggplot2", "tidyverse", "dplyr", "caret"))
 2. Run PCA to extract key features.
 3. Train HMMs using various state configurations and evaluate using BIC and log-likelihood values.
 4. Apply the trained model on new datasets and identify anomalies based on log-likelihood differences.
-5. Execute reinforcement learning for investment optimization.
 
 To execute the R script:
 ```r
